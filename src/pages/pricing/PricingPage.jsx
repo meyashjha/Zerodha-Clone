@@ -1,6 +1,17 @@
+import OpenAccount from "../../components/OpenAccount"
+import Brokerage from "./Brokerage"
+import Hero from "./Hero"
+
 const PricingPage = () => {
   return (
-    <div>PricingPage</div>
+    <div>
+      <Hero />
+      
+      <OpenAccount />
+
+      <Brokerage />
+
+    </div>
   )
 }
 
